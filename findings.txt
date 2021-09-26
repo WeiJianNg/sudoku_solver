@@ -1,0 +1,19 @@
+Summarise your findings here (see specification).
+
+Results:
+Mystery 1 is the Sudoku board with the "Extremely Hard" difficulty.
+Mystery 2 has no solution
+Mystery 3 is the Sudoku board with the "Hard" difficulty
+
+Dicussions:
+In order to rate the difficulty of the puzzles, I have kept track 
+of the number of recursive calls required to solve each puzzle. The higher
+the number of recursive calls the harder the puzzle.
+
+The number of recursive calls for Mystery 1 puzzle is 400k+ and Mystery 3 puzzle is 14k+.
+Therefore, it is deduced that Mystery 1 puzzle is harder than Mystery 3 puzzle. 
+
+The position where the solve board function starts to solve the board and the
+sequence of digit used to fill in the board has also been reversed and this has resulted
+in different number of recursions required. On average, Mystery1 board still requires
+the most number of recursions.
